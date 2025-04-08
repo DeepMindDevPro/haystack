@@ -13,7 +13,7 @@ from haystack.core.errors import DeserializationError, SerializationError
 from haystack.utils.type_serialization import thread_safe_import
 
 logger = logging.getLogger(__name__)
-
+# 序列化
 
 @dataclass(frozen=True)
 class DeserializationCallbacks:
